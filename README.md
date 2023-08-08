@@ -1,2 +1,3 @@
 # React + Vite
-bugs- popup not working correctly in desktop
+bugs- popup not working correctly in desktop mode
+
