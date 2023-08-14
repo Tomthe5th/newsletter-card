@@ -33,7 +33,7 @@ function Complete() {
         <div
           className={`${
             close ? "hidden" : ""
-          }  z-10 w-screen h-[150vh] opacity-60 bg-zinc-950   absolute md:top-0 left-0 bottom-0`}
+          }  z-10 w-screen h-full opacity-60 bg-zinc-950   absolute md:top-0 left-0 bottom-0`}
         ></div>
       </article>
     </>
