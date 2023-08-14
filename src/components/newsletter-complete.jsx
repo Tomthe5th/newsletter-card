@@ -7,8 +7,9 @@ function Complete() {
   return (
     <>
       <article className="mx-auto w-screen h-screen z-50 ">
+        {/* //*pop up */}
         <div
-          className={` z-10 bg-slate-100 rounded-lg px-6 py-8 absolute  top-44 right-0 left-0  mx-auto w-80 flex flex-col gap-2 space-y-3 ${
+          className={` z-20 bg-slate-100 rounded-lg px-6 py-8 absolute  top-44 right-0 left-0  mx-auto w-80 flex flex-col gap-2 space-y-3 ${
             close ? "hidden" : ""
           } `}
         >
@@ -24,19 +25,15 @@ function Complete() {
             the button inside to confirm your subscription
           </p>
 
-          <button
-            className="btn"
-            type="button"
-            onClick={() => setClose(true)}
-          >
+          <button className="btn" type="button" onClick={() => setClose(true)}>
             DISMISS
           </button>
         </div>
-
+        {/* //*black background */}
         <div
           className={`${
             close ? "hidden" : ""
-          } z-0 w-screen h-screen opacity-60 bg-zinc-950 md:absolute top-0 left-0 bottom-0 `}
+          }  z-10 w-screen h-[150vh] opacity-60 bg-zinc-950   absolute md:top-0 left-0 bottom-0`}
         ></div>
       </article>
     </>

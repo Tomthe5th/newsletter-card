@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Complete from "./components/newsletter-complete.jsx";
 
@@ -15,7 +13,7 @@ function App() {
         </div>
       ) : null}
 
-      <article className="mx-auto  rounded-none flex flex-row absolute top-0 left-0  md:relative md:items-center md:justify-center flex-wrap-reverse sm:rounded-3xl p-0 sm: max-w-4xl  gap-8 bg-slate-100  md:px-4 sm:py-4  sub-text md:flex-nowrap -z-10">
+      <article className="mx-auto  rounded-none flex flex-row absolute top-0 left-0  flex-wrap-reverse sm:rounded-3xl p-0 sm: max-w-4xl  gap-8 bg-slate-100  sm:py-4  sub-text -z-10; md:relative md:items-center md:justify-center md:flex-nowrap md:px-4">
         <div className="max-w-1/2 flex flex-col gap-4 leading-loose py-12 px-4 sm:px-12 ">
           <h1>Stay Updated!</h1>
           <p className="text-left">
@@ -46,7 +44,7 @@ function App() {
           </form>
         </div>
 
-        <div className="min-w-1/2 mx-auto w-full md:w-fit flex justify-center items-center">
+        <div className="min-w-1/2 mx-auto w-fullflex justify-center items-center md:w-fit ">
           {/* // * desktop */}
           <img
             className="w-full hidden  md:flex"
